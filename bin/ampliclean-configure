@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+"use strict";
+
+const configurationManager = require('../lib/configuration-manager'); 
+
+configurationManager.configure(); 

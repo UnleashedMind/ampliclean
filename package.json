@@ -5,25 +5,26 @@
   "main": "bin/ampliclean",
   "bin": {
     "ampliclean": "bin/ampliclean",
+    "ampliclean-configure": "bin/ampliclean-configure",
     "ampliclean-s3": "bin/ampliclean-s3",
     "ampliclean-cloudformation": "bin/ampliclean-cloudformation",
     "ampliclean-pinpoint": "bin/ampliclean-pinpoint"
   },
   "dependencies": {
-    "aws-sdk": "^2.203.0",
-    "chalk": "^2.0.1",
-    "commander": "^2.11.0",
-    "fs-extra": "^4.0.2",
-    "inquirer": "^3.2.1",
-    "opn": "^5.1.0",
-    "ora": "^1.3.0",
+    "aws-sdk": "^2.375.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "ini": "^1.3.5",
+    "inquirer": "^6.2.1",
+    "opn": "^5.4.0",
+    "ora": "^3.0.0",
     "os": "^0.1.1",
-    "path": "^0.12.7",
-    "util": "^0.10.3",
-    "uuid": "^3.1.0"
+    "util": "^0.11.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,10 @@
   "bugs": {
     "url": "https://github.com/UnleashedMind/ampliclean/issues"
   },
-  "homepage": "https://github.com/UnleashedMind/ampliclean#readme"
+  "homepage": "https://github.com/UnleashedMind/ampliclean#readme",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
 }
