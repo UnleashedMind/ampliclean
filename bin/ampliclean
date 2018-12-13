@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+"use strict";
+const program = require('commander')
+
+program
+  .version(require('../package').version)
+  .description('ampliclean cli removes aws resources by service name')
+  .usage('<command> [options]')
+  .command('cloudformation', 'removes all cloudformation stacks')
+  .command('pinpoint', 'removes all pinpoint projects')
+  .command('s3', 'removes all s3 buckets')
+  .parse(process.argv);
+
+program.help(); 
