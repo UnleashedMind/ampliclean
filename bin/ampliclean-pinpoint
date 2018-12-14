@@ -1,3 +1,10 @@
 #!/usr/bin/env node
 "use strict";
-console.log('remove pinpoint project:  to be implemented');
+const program = require('commander');
+const handler = require('../lib/handler-pinpoint'); 
+
+program
+    .description('edit configuration settings of the aws account or the project')
+    .parse(process.argv)
+
+handler.run(); 

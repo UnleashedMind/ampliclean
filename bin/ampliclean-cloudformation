@@ -1,3 +1,10 @@
 #!/usr/bin/env node
 "use strict";
-console.log('remove cloudformation stacks:  to be implemented');
+const program = require('commander');
+const handler = require('../lib/handler-cloudformation'); 
+
+program
+    .description('edit configuration settings of the aws account or the project')
+    .parse(process.argv)
+
+handler.run(); 
