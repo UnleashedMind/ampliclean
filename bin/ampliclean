@@ -11,5 +11,3 @@ program
   .command('s3', 'removes all s3 buckets')
   .command('configure', 'configures the cli')
   .parse(process.argv);
-
-program.help(); 
