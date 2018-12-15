@@ -4,7 +4,7 @@ const program = require('commander');
 const handler = require('../lib/handler-pinpoint'); 
 
 program
-    .description('edit configuration settings of the aws account or the project')
+    .description('removes all pinpoint projects')
     .parse(process.argv)
 
 handler.run(true); 

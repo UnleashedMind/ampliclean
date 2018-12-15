@@ -4,7 +4,7 @@ const program = require('commander');
 const handler = require('../lib/handler-s3'); 
 
 program
-    .description('edit configuration settings of the aws account or the project')
+    .description('removes all s3 buckets')
     .parse(process.argv)
 
 handler.run(true); 
