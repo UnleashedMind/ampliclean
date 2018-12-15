@@ -7,4 +7,4 @@ program
     .description('edit configuration settings of the aws account or the project')
     .parse(process.argv)
 
-handler.run(); 
+handler.run(true); 
