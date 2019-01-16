@@ -11,8 +11,8 @@ The current set of commands supported by the ampliclean CLI are
 
 | Command              | Description |
 | --- | --- |
-| ampliclean cloudformation | removes all cloudformation stacks |
-| ampliclean pinpoint | removes all pinpoint projects |
-| ampliclean s3 | removes all s3 buckets |
+| ampliclean cloudformation | removes all cloudformation stacks in your account|
+| ampliclean pinpoint | removes all pinpoint projects in your account|
+| ampliclean s3 | removes all s3 buckets in your account|
 | ampliclean configure | configures the cli |
 | ampliclean help [cmd] | Displays help for [cmd] |
