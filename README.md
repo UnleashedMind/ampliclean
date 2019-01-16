@@ -1,5 +1,6 @@
 # ampliclean
-Command line tool to clean aws resources
+Command line tool to clean aws resources. 
+This command line tool is intended to be only used to clean up resources in aws account that are only for dev and test purposely. Do NOT use it on production aws account. 
 
 ## Install the CLI
 This tool is not published to the npm. 
