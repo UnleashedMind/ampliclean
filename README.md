@@ -1,5 +1,5 @@
 # ampliclean
-command line tool to clean aws resources
+Command line tool to clean aws resources
 
 ## Install the CLI
 This tool is not published to the npm. 
