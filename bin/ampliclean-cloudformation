@@ -5,6 +5,7 @@ const handler = require('../lib/handler-cloudformation');
 
 program
     .description('removes all cloudformation stacks')
+    .option('-y --yes', 'the yes flag')
     .parse(process.argv)
 
-handler.run(true); 
+handler.run(program.opts().yes); 

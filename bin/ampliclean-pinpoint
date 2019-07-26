@@ -5,6 +5,7 @@ const handler = require('../lib/handler-pinpoint');
 
 program
     .description('removes all pinpoint projects')
+    .option('-y --yes', 'the yes flag')
     .parse(process.argv)
 
-handler.run(true); 
+handler.run(program.opts().yes); 

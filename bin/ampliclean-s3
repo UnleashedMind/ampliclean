@@ -5,6 +5,7 @@ const handler = require('../lib/handler-s3');
 
 program
     .description('removes all s3 buckets')
+    .option('-y --yes', 'the yes flag')
     .parse(process.argv)
 
-handler.run(true); 
+handler.run(program.opts().yes); 

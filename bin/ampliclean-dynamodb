@@ -5,6 +5,7 @@ const handler = require('../lib/handler-dynamodb');
 
 program
     .description('removes all dynamodbtables')
+    .option('-y --yes', 'the yes flag')
     .parse(process.argv)
 
-handler.run(false); 
+handler.run(program.opts().yes); 
