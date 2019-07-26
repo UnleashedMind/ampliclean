@@ -8,6 +8,7 @@
     "ampliclean-configure": "bin/ampliclean-configure",
     "ampliclean-s3": "bin/ampliclean-s3",
     "ampliclean-cloudformation": "bin/ampliclean-cloudformation",
+    "ampliclean-dynamodb": "bin/ampliclean-dynamodb",
     "ampliclean-pinpoint": "bin/ampliclean-pinpoint"
   },
   "dependencies": {
