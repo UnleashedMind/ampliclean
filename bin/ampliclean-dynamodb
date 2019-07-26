@@ -7,4 +7,4 @@ program
     .description('removes all dynamodbtables')
     .parse(process.argv)
 
-handler.run(true); 
+handler.run(false); 
