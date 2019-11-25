@@ -6,13 +6,14 @@
   "bin": {
     "ampliclean": "bin/ampliclean",
     "ampliclean-configure": "bin/ampliclean-configure",
+    "ampliclean-amplify": "bin/ampliclean-amplify",
     "ampliclean-s3": "bin/ampliclean-s3",
     "ampliclean-cloudformation": "bin/ampliclean-cloudformation",
     "ampliclean-dynamodb": "bin/ampliclean-dynamodb",
     "ampliclean-pinpoint": "bin/ampliclean-pinpoint"
   },
   "dependencies": {
-    "aws-sdk": "^2.375.0",
+    "aws-sdk": "^2.577.0",
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
     "fs-extra": "^7.0.1",

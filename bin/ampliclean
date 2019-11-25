@@ -10,5 +10,6 @@ program
   .command('pinpoint', 'removes all pinpoint projects')
   .command('s3', 'removes all s3 buckets')
   .command('dynamodb', 'removes all dynamodb tables')
+  .command('amplify', 'removes all amplify projects')
   .command('configure', 'configures the cli')
   .parse(process.argv);
