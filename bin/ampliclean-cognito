@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+"use strict";
+const program = require('commander');
+const handler = require('../lib/handler-cognito'); 
+
+program
+    .description('removes all cognito user pools and identity pools')
+    .option('-y --yes', 'the yes flag')
+    .parse(process.argv)
+
+handler.run(program.opts().yes); 

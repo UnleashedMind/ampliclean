@@ -6,6 +6,7 @@
   "bin": {
     "ampliclean": "bin/ampliclean",
     "ampliclean-configure": "bin/ampliclean-configure",
+    "ampliclean-cognito": "bin/ampliclean-cognito",
     "ampliclean-amplify": "bin/ampliclean-amplify",
     "ampliclean-s3": "bin/ampliclean-s3",
     "ampliclean-cloudformation": "bin/ampliclean-cloudformation",
