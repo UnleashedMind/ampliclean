@@ -9,6 +9,7 @@ program
   .command('cloudformation', 'removes all cloudformation stacks')
   .command('cognito', 'removes cognito user pools and identity pools')
   .command('pinpoint', 'removes all pinpoint projects')
+  .command('lambda', 'removes all lambda functions')
   .command('s3', 'removes all s3 buckets')
   .command('dynamodb', 'removes all dynamodb tables')
   .command('amplify', 'removes all amplify projects')

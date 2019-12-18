@@ -10,6 +10,7 @@
     "ampliclean-amplify": "bin/ampliclean-amplify",
     "ampliclean-s3": "bin/ampliclean-s3",
     "ampliclean-cloudformation": "bin/ampliclean-cloudformation",
+    "ampliclean-lambda": "bin/ampliclean-lambda",
     "ampliclean-dynamodb": "bin/ampliclean-dynamodb",
     "ampliclean-pinpoint": "bin/ampliclean-pinpoint"
   },
