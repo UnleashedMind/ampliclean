@@ -22,4 +22,4 @@ The current set of commands supported by the ampliclean CLI are
 | ampliclean pinpoint | removes all pinpoint projects|
 | ampliclean s3 | removes all s3 buckets|
 | ampliclean configure | configures the cli |
-| ampliclean help [cmd] | Displays help for [cmd] |
+| ampliclean help [cmd] | displays help [for cmd] |
