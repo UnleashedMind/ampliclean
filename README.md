@@ -17,6 +17,7 @@ The current set of commands supported by the ampliclean CLI are
 | ampliclean amplify | removes all amplify service projects|
 | ampliclean cognito | removes all cognito user pools and identity pools|
 | ampliclean cloudformation | removes all cloudformation stacks|
+| ampliclean cloudwatch | removes all cloudwatch logs|
 | ampliclean dynamodb | removes all dynamodb tables|
 | ampliclean lambda | removes all lambda functions|
 | ampliclean pinpoint | removes all pinpoint projects|

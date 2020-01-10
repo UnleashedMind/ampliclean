@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+
+const program = require('commander');
+const handler = require('../lib/handler-cloudwatch');
+
+program
+  .description('removes all cloudwatch logs')
+  .option('-y --yes', 'the yes flag')
+  .parse(process.argv);
+
+handler.run(program.opts().yes);

@@ -7,6 +7,7 @@ program
   .description('ampliclean cli removes aws resources by service name')
   .usage('<command> [options]')
   .command('cloudformation', 'removes all cloudformation stacks')
+  .command('cloudwatch', 'removes all cloudwatch logs')
   .command('cognito', 'removes cognito user pools and identity pools')
   .command('pinpoint', 'removes all pinpoint projects')
   .command('lambda', 'removes all lambda functions')
