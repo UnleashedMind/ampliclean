@@ -15,4 +15,5 @@ program
   .command('dynamodb', 'removes all dynamodb tables')
   .command('amplify', 'removes all amplify projects')
   .command('configure', 'configures the cli')
+  .command('testauth', 'testauth')
   .parse(process.argv);

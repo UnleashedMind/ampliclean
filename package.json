@@ -13,7 +13,8 @@
     "ampliclean-cloudwatch": "bin/ampliclean-cloudwatch",
     "ampliclean-lambda": "bin/ampliclean-lambda",
     "ampliclean-dynamodb": "bin/ampliclean-dynamodb",
-    "ampliclean-pinpoint": "bin/ampliclean-pinpoint"
+    "ampliclean-pinpoint": "bin/ampliclean-pinpoint",
+    "ampliclean-testauth": "bin/ampliclean-testauth"
   },
   "dependencies": {
     "aws-sdk": "^2.577.0",

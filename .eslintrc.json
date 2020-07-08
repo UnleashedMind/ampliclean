@@ -10,6 +10,8 @@
     	"global-require": "off",
     	"import/no-dynamic-require": "off",
 		"consistent-return": "off",
-		"no-plusplus": "off"
+		"no-plusplus": "off",
+		"indent": "off",
+		"no-unused-vars": "off"
     }
 }
