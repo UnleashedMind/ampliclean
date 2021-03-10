@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: test-actions
 on: [push]
 jobs:
   check-bats-version:
@@ -8,3 +8,6 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g bats
       - run: bats -v
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.5
+      - run: node -v
